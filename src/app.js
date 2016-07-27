@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import VueResource from 'vue-resource'
 import VueValidator from 'vue-validator'
 import FastClick from 'fastclick'
 import main from './main'
@@ -8,9 +7,6 @@ import routerMap from './router'
 
 // FastClick
 FastClick.attach(document.body)
-
-// Resource
-Vue.use(VueResource)
 
 // VueValidator
 Vue.use(VueValidator)
