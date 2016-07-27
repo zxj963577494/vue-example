@@ -3,7 +3,7 @@ import {
 } from '../mutation-types'
 
 const state = {
-  title: 'home'
+  title: ''
 }
 
 const mutations = {

@@ -11,6 +11,10 @@ export default function (router) {
     '/home': {
       name: 'home',
       component: require('./views/home')
+    },
+    '/list': {
+      name: 'list',
+      component: require('./views/list')
     }
   })
 
@@ -20,6 +24,5 @@ export default function (router) {
   })
 
   router.afterEach(({to}) => {
-    console.log(to)
   })
 }

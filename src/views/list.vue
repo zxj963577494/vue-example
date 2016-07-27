@@ -1,7 +1,6 @@
 <template>
-  首页
-  <a v-link="{name:'list',params:{Id:1}}">前往列表页</a>
-  <p>header属于路由模板页，内容的文字变化由vuex实现</p>
+列表页
+<a v-link="{name:'home',params:{Id:1}}">返回主页</a>
 </template>
 <script>
   import { setTitle } from '../vuex/actions'
@@ -17,7 +16,7 @@
       }
     },
     created: function () {
-      this.setTitle('首页')
+      this.setTitle('列表页')
     },
     ready () {
     },

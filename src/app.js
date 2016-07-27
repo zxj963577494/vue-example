@@ -5,7 +5,6 @@ import VueValidator from 'vue-validator'
 import FastClick from 'fastclick'
 import main from './main'
 import routerMap from './router'
-// import store from './vuex/store'
 
 // FastClick
 FastClick.attach(document.body)
@@ -28,5 +27,4 @@ const router = new VueRouter({
 
 routerMap(router)
 router.start(main, '#app')
-console.log(router)
 
