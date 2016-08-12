@@ -2,6 +2,7 @@
   首页
   <a v-link="{name:'list',params:{Id:1}}">前往列表页</a>
   <p>header属于路由模板页，内容的文字变化由vuex实现</p>
+  <p>通过api获取node.js中文社区20条数据：</p>
   <pre>{{topics | json 2}}</pre>
 </template>
 <script>
